@@ -1,0 +1,74 @@
+/* fuentes locales*/
+@font-face{
+	font-family: CorporateA-Regular;
+	font-style: normal;
+	src: url(../fonts/CorporateA-Regular.otf) format('opentype') ;
+	format('truetype')
+}
+
+@font-face{
+	font-family: CorporateS-Regular;
+	font-style: normal;
+	src: url(../fonts/CorporateS-Regular.otf) format('opentype') ;
+	format('truetype')
+}
+
+@font-face{
+	font-family: corpoSlig;
+	font-style: normal;
+	src: url(../fonts/c063002t.ttf) format('truetype');
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+    background-image: url(../img/bg-img-2.jpg);
+
+    background-size: cover;
+    background-position: center;
+    
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+img {
+	padding-top: 55px;
+	height:60;
+	width: 5%;
+}
+
+h1 {
+	color: white;
+	padding-top: 30px;
+	font-family: CorporateS-Regular;
+	font-size:3vw;
+}
+p {
+	color: white;
+	padding-top: 70px;
+	font-family: CorporateS-Regular;
+	font-size: 1.5vw;
+	position: relative;
+	top: 30px;
+	padding-bottom: 30px;
+}
+
+ul {
+  font-family: CorporateA-Regular;
+  font-size: 1.5vw;
+  color: grey;
+  padding-top: 20px;
+  list-style-type: none;
+}
+
+li{
+
+}
+
