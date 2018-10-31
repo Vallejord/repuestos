@@ -32,8 +32,9 @@ html {
     background-position: center;
     
     text-align: center;
-    height: 100%;
+    height: auto; /*100%*/
     width: 100%;
+    display: block;
 }
 
 
